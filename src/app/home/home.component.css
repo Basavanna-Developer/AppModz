@@ -1,0 +1,38 @@
+.scrollTop{
+bottom: 30px;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    right: 30px;
+    background: #337c8e;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 42px;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+}
+.scrollTop:hover{
+    background:#337c8e;
+}
+.scrollTop i{color:#fff;}
+.caption-tag{
+    position: absolute !important;
+    right: 25% !important;
+    font-size: x-large;
+    top: 60%;
+}
+.subcontent{
+    text-align: center;
+    top: 60%;
+    /* position: absolute; */
+    line-height: unset;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: circle;
+    font-size: 16px;
+ }

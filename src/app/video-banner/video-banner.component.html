@@ -1,0 +1,51 @@
+<div class="header-container">
+    <div class="video-container">
+      <video preload="true" id="video" autoplay muted loop oncanplay="this.play()" onloadedmetadata="this.muted = true">
+        <source src="./assets/petrolink.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="header-content d-none">
+      <h2>Our values are <span id="typed"></span><span class="cursor"></span></h2>
+      <h3>Petrolink offering world class and value-added products services in Oil, gas and energy sectors.</h3>
+      <a class="viewMoreButton" id="medium" data-toggle="modal" href="#homeViewMore" data-target="#homeViewMore">View More</a>
+     <!--<a class="viewMoreButton">View More</a> --> 
+    </div>
+    <div class="header-footer">
+      <a (click)="videoPlayClick()"><i class="fa fa-play"></i></a>
+      <a (click)="videoPauseClick()"><i class="fa fa-pause"></i></a>
+    </div>
+</div>
+
+<div class="modal fade" id="homeViewMore" tabindex="-1" role="dialog"
+		aria-labelledby="homeViewMore" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Vision and Mission</h5>
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+        <div class="modal-body">    
+        <div class="row">
+        <div class="col-12 col-md-3">
+        <img class="w-100" src="./assets/img/projects/project1.jpg" style="min-height: 245px;"/>
+        </div>
+        <div class="col-12 col-md-9">
+         <div class="modalBodyContent">
+              <p class="vismis m-0 pb-1">Vision</p>
+              <p>To be an international and domestic leader in offering world class and value-added products & services in oil, gas & energy sectors. 
+              </p>
+                 <p class="vismis m-0 pb-1">Mission</p>
+              <p>Our mission is to exploit lucrative opportunities in oil & gas sector. We will target to accomplish our mission through multiple channels including acquisitions, taking equity positions, joint ventures, and by participating g in green-field projects. We also, thrive to excel in our future targeted endeavors and potential projects in energy sector.
+              </p>  
+                        
+            </div>
+        </div>
+        </div> 
+ 
+				</div>
+			</div>
+		</div>
+  </div>

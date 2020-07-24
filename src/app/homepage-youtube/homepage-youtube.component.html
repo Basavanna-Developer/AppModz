@@ -1,0 +1,38 @@
+<div class="video-area bg-opacity-1 bg-img-2 ptb-150" data-stellar-background-ratio="0.6" 
+    style="background: url(&quot;./assets/img/oil-and-gas.jpg&quot;) 50% -32px / cover no-repeat scroll rgba(0, 0, 0, 0);">
+    <div class="container">
+        <div class="row">
+			<div class="col-sm-12">
+				<div class="video-inner text-center">
+                    <a class="video-play mfp-iframe">
+						<i class="fa fa-play" data-toggle="modal"  (click)="playVideo()" data-target="#playVideo"></i>
+                        
+					</a>
+					<h2 style="color: #FFF;margin-top: 15px;">We are petrolink</h2>
+					<h3>PETROLINK OFFERING WORLD CLASS AND VALUE-ADDED PRODUCTS SERVICES IN OIL, GAS AND ENERGY SECTORS.</h3>
+				</div>
+			</div>
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+
+
+
+    <div class="modal fade" id="playVideo" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="playVideoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <button type="button" class="close"  (click)="pauseVideo()" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                   
+                    <video width="100%" height="500px" controls #myVideo>
+                        <source src="./assets/img/video1.mp4" type="video/mp4">
+                    </video>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

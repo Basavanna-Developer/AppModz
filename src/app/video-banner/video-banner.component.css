@@ -1,0 +1,18 @@
+.header-content h2 {
+    margin-top: 2rem;
+}
+.header-content h3 {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    font-weight: 600;
+}
+.viewMoreButton{transition: all 0.5s ease-in-out;}
+.viewMoreButton:hover {
+    box-shadow: 0px 0px 2px #ffffff;
+    background: #fff;
+    color: #337c8e !important;
+    border-color: #fff;
+}
+.vismis{
+    font-weight:bold;
+}

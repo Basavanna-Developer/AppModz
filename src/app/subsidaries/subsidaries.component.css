@@ -1,0 +1,51 @@
+.ptb-100 {
+    padding: 60px 0;
+}
+.textIndent1{text-indent: 50px;}
+.secTitle h2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size:44px;
+    font-weight:normal;
+}
+.secTitle h2:before {
+    content: "";
+    display: inline-block;
+    height: 6px;
+    width: 80px;
+    background-color: #337c8e;
+    margin-bottom: 16px;
+    margin-right: 20px;
+}
+.h150{height:150px}
+.secTitle h2:after {
+    content: "";
+    display: inline-block;
+    height: 6px;
+    width: 80px;
+    background-color: #337c8e;
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+.projects-area{
+    background: #f5f5f5;
+}
+.single-about{
+    background: #fff;
+    cursor: pointer;
+    padding: 10px 22px;
+}
+.about-text > p{
+    font-size:14px; 
+    color:#333;
+}
+.about-text h3{font-weight: 600;font-size:16px; color:#333}
+.fntbold600{font-weight:600}
+.minhgt{height:130px; overflow:hidden;}
+a{
+    color: #337c8e !important;
+    opacity:0.8;
+}
+a:hover{
+    opacity:1;
+}
